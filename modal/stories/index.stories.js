@@ -9,14 +9,14 @@ import {
 
 import ScrubberBar from '../index';
 
-storiesOf('socialshare-modal', module)
+storiesOf('scrubber-bar', module)
   .addDecorator(withKnobs)
-  .add('Social Share Options', () => withClassPropertiesKnobs(ScrubberBar))
+  .add('Scrubber Bar Options', () => withClassPropertiesKnobs(ScrubberBar))
   .add(
-    'Social Share Styling',
+    'Scrubber Bar Styling',
     () => html`
       <style>
-        socialshare-modal {
+        scrubber-bar {
           --thumbColor: ${color('Thumb Color', 'red', 'Colors')};
           --thumbBorder: ${text('Thumb Border', '1px solid black', 'Colors')};
           --trackFillColor: ${color('Track Fill Color', 'blue', 'Colors')};
@@ -30,7 +30,7 @@ storiesOf('socialshare-modal', module)
           --webkitThumbTopMargin: ${text('Webkit Thumb Top Margin', '-6px', 'Layout')};
         }
       </style>
-      <socialshare-modal></socialshare-modal>
+      <scrubber-bar></scrubber-bar>
     `,
   );
 © 2020 GitHub, Inc.

@@ -104,10 +104,7 @@ handleCancel(){
                </div>
              `:
              html``}
-
-
           </div>
-
         </div>` : 
         html`<p></p>`
         }
@@ -115,5 +112,4 @@ handleCancel(){
     `;
    
   }
-
 }

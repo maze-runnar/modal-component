@@ -89,10 +89,7 @@ let ScrubberBar = class ScrubberBar extends LitElement {
                </div>
              ` :
                 html ``}
-
-
           </div>
-
         </div>` :
             html `<p></p>`}
       </div>

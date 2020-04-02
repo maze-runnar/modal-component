@@ -1,3 +1,3 @@
-import ScrubberBar from './lib/scrubber-bar.d';
+import ScrubberBar from './lib/socialshare-modal.d';
 
 export { ScrubberBar };

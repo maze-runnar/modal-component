@@ -11,7 +11,12 @@ import {
 } from 'lit-element';
 
 import './assets/img/shareicon';
-
+import './assets/img/facebookicon';
+import './assets/img/twittericon';
+import './assets/img/redditicon';
+import './assets/img/tumblricon';
+import './assets/img/pineresticon';
+import './assets/img/emailicon';
 import SocialStyle from './css/socialshare-modal';
 
 @customElement('socialshare-modal')
@@ -63,24 +68,24 @@ handleCancel(){
             </div>
             <hr/>
             <br/><br/><br/>
-            <button style = "border:none;background-color:white" class ="share">
-              <image src="https://www.pngitem.com/pimgs/m/250-2509449_twiter-twitter-icon-transparent-hd-png-download.png" width="63px">
-            </button>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank">
-              <image src="https://cdn.freebiesupply.com/logos/large/2x/facebook-icon-logo-png-transparent.png" width="50px">
+            <a href="https://twitter.com/share?url=URL&text=hope" target ="_blank" class="share" style="color:white">
+              <twitter-icon></twitter-icon> 
             </a>
-            <button style = "border:none;background-color:white" class="share">
-              <image src="https://toppng.com/uploads/preview/reddit-logo-reddit-icon-115628658968pe8utyxjt.png" width="50px">
-            </button>
-             <button style = "border:none;background-color:white" class="share">
-              <image src="https://www.sharethis.com/wp-content/uploads/2017/05/Tumblr.png" width="50px">
-            </button>
-            <button style = "border:none;background-color:white" class="share">
-              <image src="https://i.ya-webdesign.com/images/pinterest-logo-png-transparent-background-3.png" width="50px">
-            </button>
-            <button style = "border:none;background-color:white" class="share">
-              <image src="https://pluspng.com/img-png/email-icon-png-download-icons-logos-emojis-email-icons-2400.png" width="50px">
-            </button>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank" class="share" style="color:white">
+               <facebook-icon></facebook-icon>
+            </a>
+            <a href="https://reddit.com/submit?url=<URL>&title=<TITLE>" target="_blank" class="share" style="color:white">
+              <reddit-icon></reddit-icon>
+            </a>
+            <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Internet Archive" target="_blank" class="share" style="color:white">
+              <tumblr-icon></tumblr-icon>
+            </a>
+           <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());" target="_blank" style="color:white" class="share">
+              <pinerest-icon></pinerest-icon>
+            </a>
+            <a href="mailto:?subject=<SUBJECT>&body=<BODY>" target="_blank" class="share" style="color:white">
+              <email-icon></email-icon>
+            </a>
             <br/>
              ${this.embeded == "true" ? html `
                <div>

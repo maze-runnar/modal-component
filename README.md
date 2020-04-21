@@ -1,8 +1,7 @@
 # Social share modal-component  
-<p align="center">
-<img src="https://vaadin.com/static/content/learning-center/learn/tutorials/lit-element/images/lit-element-thumbnail.png" />
-</p   
-A GSoC iaux project of Internet Archive. And I am gonna have it.
+
+<img src="https://vaadin.com/static/content/learning-center/learn/tutorials/lit-element/images/lit-element-thumbnail.png">
+ A GSoC iaux project of Internet Archive. And I am gonna have it.
 This is a reusable modal component for social sharing and currently under development for "archive.org" website.  
 This project uses lit-element for making components.  
 Initially there was a doubt in project feasibility so I tried to initialize it by myself and try if the solution is feasible or not. I used these polymers to solve the problem.
